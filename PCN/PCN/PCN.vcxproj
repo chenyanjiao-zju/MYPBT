@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2202C4CD-7295-402E-9F48-D5432EE196EF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PCN</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\global.h" />
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\simulator\event.h" />
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\simulator\initialize.h" />
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\simulator\stats.h" />
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\array.h" />
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\hashTable.h" />
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\heap.h" />
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\list.h" />
+    <ClInclude Include="..\protocol\findRoute.h" />
+    <ClInclude Include="..\protocol\protocol.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\main.c" />
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\simulator\event.c" />
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\simulator\initialize.c" />
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\simulator\stats.c" />
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\array.c" />
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\hashTable.c" />
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\heap.c" />
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\list.c" />
+    <ClCompile Include="..\protocol\findRoute.c" />
+    <ClCompile Include="..\protocol\protocol.c" />
+    <ClCompile Include="PCN.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\batch-means.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\channelInfoLN.csv" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\channelLN.csv" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\cloth" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\install.sh" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\LNtopology.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\Makefile" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\peerLN.csv" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\preinput.json" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\README.md" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\request-a-simulation-template.md" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\run.sh" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\run_simulations.sh" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\attempts.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\batch-means-old.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\batch_means_simple.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\change-ln-topology.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\channels-per-node.json" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\channels-per-node.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\find-transients.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\hub.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\ln-policies.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\ln-stats.json" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\ln-topology-stats.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\LNstats.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\LNtopology.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\payment_dest.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\print_time.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\run_simulations.sh" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\stats.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\unplug-hub-v1.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\unplug-hub-v2.py" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

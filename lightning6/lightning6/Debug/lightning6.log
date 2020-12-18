@@ -1,0 +1,9 @@
+﻿  lightning6.cpp
+d:\app\visual studio 2015\projects\lightning6\lightning6\lightning6.cpp(17): warning C4305: “初始化”: 从“double”到“float”截断
+d:\app\visual studio 2015\projects\lightning6\lightning6\lightning6.cpp(30): warning C4305: “初始化”: 从“__int64”到“float”截断
+d:\app\visual studio 2015\projects\lightning6\lightning6\lightning6.cpp(51): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+d:\app\visual studio 2015\projects\lightning6\lightning6\lightning6.cpp(92): warning C4305: “=”: 从“__int64”到“float”截断
+d:\app\visual studio 2015\projects\lightning6\lightning6\lightning6.cpp(93): warning C4305: “=”: 从“__int64”到“float”截断
+d:\app\visual studio 2015\projects\lightning6\lightning6\lightning6.cpp(125): warning C4305: “=”: 从“__int64”到“float”截断
+  lightning6.vcxproj -> D:\APP\visual studio 2015\Projects\lightning6\Debug\lightning6.exe
+  lightning6.vcxproj -> D:\APP\visual studio 2015\Projects\lightning6\Debug\lightning6.pdb (Full PDB)

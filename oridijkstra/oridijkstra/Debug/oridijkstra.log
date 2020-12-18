@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  oridijkstra.cpp
+d:\app\visual studio 2015\projects\oridijkstra\oridijkstra\oridijkstra.cpp(15): warning C4305: “初始化”: 从“double”到“float”截断
+d:\app\visual studio 2015\projects\oridijkstra\oridijkstra\oridijkstra.cpp(18): warning C4305: “初始化”: 从“int”到“float”截断
+d:\app\visual studio 2015\projects\oridijkstra\oridijkstra\oridijkstra.cpp(26): warning C4305: “初始化”: 从“__int64”到“float”截断
+d:\app\visual studio 2015\projects\oridijkstra\oridijkstra\oridijkstra.cpp(40): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+  oridijkstra.vcxproj -> D:\APP\visual studio 2015\Projects\oridijkstra\Debug\oridijkstra.exe
+  oridijkstra.vcxproj -> D:\APP\visual studio 2015\Projects\oridijkstra\Debug\oridijkstra.pdb (Full PDB)

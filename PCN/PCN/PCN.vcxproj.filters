@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{dfcd4e3d-480f-4d79-85ee-960d5033d009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{f956d342-3dc5-40e4-bbc0-c12c9cfebdcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simulator">
+      <UniqueIdentifier>{83786074-abf1-4463-b47e-38e48784ca80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{926dfa02-9816-4789-b28b-0262044d8f5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protocol\findRoute.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protocol\protocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\simulator\event.h">
+      <Filter>simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\simulator\initialize.h">
+      <Filter>simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\simulator\stats.h">
+      <Filter>simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\array.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\hashTable.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\heap.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\list.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\论文\论文\PCN\cloth\global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PCN.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protocol\findRoute.c">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protocol\protocol.c">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\simulator\event.c">
+      <Filter>simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\simulator\initialize.c">
+      <Filter>simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\simulator\stats.c">
+      <Filter>simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\array.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\hashTable.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\heap.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\utils\list.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\论文\论文\PCN\cloth\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\attempts.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\batch_means_simple.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\batch-means-old.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\change-ln-topology.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\channels-per-node.json">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\channels-per-node.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\find-transients.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\hub.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\ln-policies.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\ln-stats.json">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\LNstats.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\LNtopology.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\ln-topology-stats.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\payment_dest.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\print_time.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\run_simulations.sh">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\stats.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\unplug-hub-v1.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\scripts\unplug-hub-v2.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\batch-means.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\channelInfoLN.csv" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\channelLN.csv" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\cloth" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\install.sh" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\LNtopology.py" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\Makefile" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\peerLN.csv" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\preinput.json" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\README.md" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\request-a-simulation-template.md" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\run.sh" />
+    <None Include="..\..\..\..\..\论文\论文\PCN\cloth\run_simulations.sh" />
+  </ItemGroup>
+</Project>

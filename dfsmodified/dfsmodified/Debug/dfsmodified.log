@@ -1,0 +1,7 @@
+﻿  dfsmodified.cpp
+d:\app\visual studio 2015\projects\dfsmodified\dfsmodified\dfsmodified.cpp(104): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+d:\app\visual studio 2015\projects\dfsmodified\dfsmodified\dfsmodified.cpp(107): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+d:\app\visual studio 2015\projects\dfsmodified\dfsmodified\dfsmodified.cpp(222): warning C4018: “<”: 有符号/无符号不匹配
+d:\app\visual studio 2015\projects\dfsmodified\dfsmodified\dfsmodified.cpp(240): warning C4101: “timetotal”: 未引用的局部变量
+  dfsmodified.vcxproj -> D:\APP\visual studio 2015\Projects\dfsmodified\Debug\dfsmodified.exe
+  dfsmodified.vcxproj -> D:\APP\visual studio 2015\Projects\dfsmodified\Debug\dfsmodified.pdb (Full PDB)
